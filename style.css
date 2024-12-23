@@ -1,0 +1,73 @@
+*{
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+}
+html,body{
+     width: 100%;
+     height: 100%;
+}
+.page1{
+     width: 100vw;
+     height: 100vh;
+     position: absolute;
+
+}
+.page1 >.top{
+     width: 100vw;
+     height: 50vh;
+     display: flex;
+}
+.page1 >.top > img{
+     width: 100vw;
+     height: 40vh;
+     object-fit: cover;
+}
+.page1 >.bottom >div{
+     display: flex;
+     width: 100vw;
+     height: 50vh;
+}
+.page1 >.bottom >div >img{
+     width: 100vw;
+     height: 50vh;
+     object-fit: cover;
+}
+.page2{
+     width: 100vw;
+     height: 100vh;
+     position: relative;
+     top: 7rem;
+     left: 30rem;
+}
+.page2 >div{
+     padding-top: 2rem;
+     text-align: center;
+     width: 32vw;
+     height: 55vh;
+     color: black;
+     background-color:white;
+}
+.page2 >div >h1{
+     font-size: 3rem;
+     font-weight: 400;
+     padding: 1rem;
+}
+.page2 >div >p{
+     font-size: 0.8rem;
+     font-weight: 400;
+     font-style: italic;
+     padding-bottom: 2rem;
+}
+.page2 >div >input{
+     padding: 0.7rem 2.5rem;
+}
+.page2 >div >button{
+     margin: 1rem;
+     padding: 0.7rem 5rem;
+     background-color: black;
+     color: white;
+     font-size: 1.2rem;
+     font-weight: 800;
+     cursor: pointer;
+}
